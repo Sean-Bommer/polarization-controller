@@ -19,6 +19,7 @@ This device is designed to be very modular, and complies to the dimensions requi
 When attached to the base mount via the M3 screws the, the whole system can be mounted to an optical breadboard via the 2 slots either side of the base and up to 4 L-shaped mounting brackets. In this configuration, with two waveplates setup, the PCU can serve as a mounting point for a simple optical cage setup as well.
 
 FOLDERS:
+        
         The Arduino folder contains the position and distance versions of the OS which are compatible with the arduino Nano.
         it also contains the autostep testscript, that can be used to check if all components work without serial communication and also         measure any motor drift the system has when used in conjunction with the Matlab findMotorDrift.m file.
         
