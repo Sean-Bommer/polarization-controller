@@ -21,7 +21,8 @@ When attached to the base mount via the M3 screws the, the whole system can be m
 FOLDERS:
         
         The Arduino folder contains the position and distance versions of the OS which are compatible with the arduino Nano.
-        it also contains the autostep testscript, that can be used to check if all components work without serial communication and also         measure any motor drift the system has when used in conjunction with the Matlab findMotorDrift.m file.
+        it also contains the autostep testscript, that can be used to check if all components work without serial communication and also 
+        measure any motor drift the system has when used in conjunction with the Matlab findMotorDrift.m file.
         
         The Matlab folder has the findMotorDrift.m file which can be used to measure the motor drift of the system whn used with the
         autostep arduino script.
