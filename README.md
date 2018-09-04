@@ -17,3 +17,16 @@ The OS for the device is contained in the Arduino IDE code in this repository, t
 This device is designed to be very modular, and complies to the dimensions required for the Thorlabs cage mount system. the waveplates are controlled independently of each other so it can operate with either one or 2 waveplates. 
 
 When attached to the base mount via the M3 screws the, the whole system can be mounted to an optical breadboard via the 2 slots either side of the base and up to 4 L-shaped mounting brackets. In this configuration, with two waveplates setup, the PCU can serve as a mounting point for a simple optical cage setup as well.
+
+FOLDERS:
+        The Arduino folder contains the position and distance versions of the OS which are compatible with the arduino Nano.
+        it also contains the autostep testscript, that can be used to check if all components work without serial communication and also         measure any motor drift the system has when used in conjunction with the Matlab findMotorDrift.m file.
+        
+        The Matlab folder has the findMotorDrift.m file which can be used to measure the motor drift of the system whn used with the
+        autostep arduino script.
+        
+        The LabVIEW folder holds a simple Serial Interface with the PCU allowing simple click and go operation of the PCU
+
+        The PCB folder has all the Kicad files needed for the design of the PCU PCB on a one-sided copper plate.
+
+        the Fusion 360 contains the design files for the laser cut acrylic parts of the PCU.
